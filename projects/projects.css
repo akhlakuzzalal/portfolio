@@ -1,0 +1,26 @@
+.project-link a{
+   font-size: 18px;
+   display: inline-block;
+   background: #212431;
+   color: #fff;
+   padding: 8px 10px;
+   margin-right: 4px;
+   border-radius: 20%;
+   text-align: center;
+   transition: 0.3s;
+   margin-bottom: 8px;
+}
+.project-link a i{
+   font-size: 25px;
+}
+.technology img{
+   box-shadow: 4px 4px 5px rgb(95, 35, 35);
+   height: 70px;
+   width: 70px;
+   border-radius: 50%;
+   transition: ease .6s;
+   cursor: pointer;
+}
+.technology img:hover{
+   transform: scale(1.3);
+}
