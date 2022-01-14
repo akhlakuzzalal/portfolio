@@ -196,7 +196,8 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  padding-right: 370px;
+  padding-right: 70px;
+  padding-top: 300px;
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
@@ -401,6 +402,17 @@ section {
   background-color: #149ddd;
 }
 
+.technology img{
+  box-shadow: 4px 4px 5px rgb(95, 35, 35);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  transition: ease .6s;
+  cursor: pointer;
+}
+.technology img:hover{
+  transform: scale(1.3);
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
